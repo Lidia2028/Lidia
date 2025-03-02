@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экологический тест</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Экологический тест</h1>
+
+        <form id="quizForm">
+            <div class="question">
+                <h3>1. Сортируете ли вы мусор?</h3>
+                <label><input type="radio" name="question1" value="Нет"> Нет</label>
+                <label><input type="radio" name="question1" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question1" value="Да!"> Да!</label>
+            </div>
+
+            <div class="question">
+                <h3>2. Как часто вы используете многоразовые изделия?</h3>
+                <label><input type="radio" name="question2" value="Почти не использую"> Почти не использую</label>
+                <label><input type="radio" name="question2" value="Стараюсь заменять"> Стараюсь заменять</label>
+                <label><input type="radio" name="question2" value="На постоянной основе"> На постоянной основе</label>
+            </div>
+
+            <div class="question">
+                <h3>3. Как часто вы сдаёте макулатуру на переработку?</h3>
+                <label><input type="radio" name="question3" value="Никогда"> Никогда</label>
+                <label><input type="radio" name="question3" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question3" value="Регулярно"> Регулярно</label>
+            </div>
+            
+            <div class="question">
+                <h3>4. Как часто вы сдаёте одежду или вещи в благотворительные фонды?</h3>
+                <label><input type="radio" name="question4" value="Никогда"> Никогда</label>
+                <label><input type="radio" name="question4" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question4" value="Регулярно"> Регулярно</label>
+            </div>
+
+            <div class="question">
+                <h3>5. Как часто вы разжигаете костёр, камин или топите баню?</h3>
+                <label><input type="radio" name="question5" value="Регулярно"> Регулярно</label>
+                <label><input type="radio" name="question5" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question5" value="Почти никогда"> Почти никогда</label>
+            </div>
+
+            <div class="question">
+                <h3>6. Сколько времени в среднем вы проводите в душе или ванной?</h3>
+                <label><input type="radio" name="question6" value="20+ минут"> 20+ минут</label>
+                <label><input type="radio" name="question6" value="10–20 минут"> 10–20 минут</label>
+                <label><input type="radio" name="question6" value="До 10 минут"> До 10 минут</label>
+            </div>
+
+            <div class="question">
+                <h3>7. Вы выключаете воду во время чистки зубов/умывании?</h3>
+                <label><input type="radio" name="question7" value="20+ минут" > 20+ минут</label>
+                <label><input type="radio" name="question7" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question7" value="Да, всегда "> Да, всегда</label>
+            </div>
+
+            <div class="question">
+                <h3>8. Как часто вы покупаете пластиковые бутылки и пакеты?</h3>
+                <label><input type="radio" name="question8" value="Регулярно" > Регулярно</label>
+                <label><input type="radio" name="question8" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question8" value="Почти никогда"> Почти никогда</label>
+            </div>
+
+            <div class="question">
+                <h3>9. Как часто вы пользуетесь личным автомобилем?</h3>
+                <label><input type="radio" name="question9" value="Часто (1000+ км в месяц)" > Часто (1000+ км в месяц)</label>
+                <label><input type="radio" name="question9" value="Иногда (200–1000 км в месяц)"> Иногда (200–1000 км в месяц)</label>
+                <label><input type="radio" name="question9" value="Редко (0–200 км в месяц)"> Редко (0–200 км в месяц)</label>
+            </div>
+
+            <div class="question">
+                <h3>10. Как часто вы пользуетесь такси в месяц?</h3>
+                <label><input type="radio" name="question10" value="6+ раз" > 6+ раз</label>
+                <label><input type="radio" name="question10" value="4–5 раз"> 4–5 раз</label>
+                <label><input type="radio" name="question10" value="0–3 раза"> 0–3 раза</label>
+            </div>
+
+            <div class="question">
+                <h3>11. Как часто вы ездите на метро?</h3>
+                <label><input type="radio" name="question11" value="Редко" > Редко</label>
+                <label><input type="radio" name="question11" value="Часто"> Часто</label>
+                <label><input type="radio" name="question11" value="Регулярно"> Регулярно</label>
+            </div>
+
+            <div class="question">
+                <h3>12. Сколько раз в месяц вы ездите на автобусе или троллейбусе?</h3>
+                <label><input type="radio" name="question12" value="Редко" > Редко</label>
+                <label><input type="radio" name="question12" value="Часто"> Часто</label>
+                <label><input type="radio" name="question12" value="Регулярно"> Регулярно</label>
+            </div>
+
+            <div class="question">
+                <h3>13. Как часто вы используете экологичный личный транспорт (электрокар, велосипед, самокат)</h3>
+                <label><input type="radio" name="question13" value="Никогда" > Никогда</label>
+                <label><input type="radio" name="question13" value="Часто"> Часто</label>
+                <label><input type="radio" name="question13" value="Регулярно"> Регулярно</label>
+            </div>
+
+            <div class="question">
+                <h3>14.  Насколько часто вы ходите пешком?</h3>
+                <label><input type="radio" name="question14" value="Мало, пользуюсь транспортом" > Мало, пользуюсь транспортом</label>
+                <label><input type="radio" name="question14" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question14" value="Регулярно, не пользуюсь авто"> Регулярно, не пользуюсь авто</label>
+            </div>
+
+            <div class="question">
+                <h3>15.  Сколько раз в год вы совершаете перелёты на самолёте?</h3>
+                <label><input type="radio" name="question15" value="0 раз" > 0 раз</label>
+                <label><input type="radio" name="question15" value="1–2 раза "> 1–2 раза </label>
+                <label><input type="radio" name="question15" value="3+ раза"> 3+ раза</label>
+            </div>
+
+            <div class="question">
+                <h3>16.  Включено ли употребление красного мяса (баранина, говядина и т. д.) в ваш ежедневный рацион?</h3>
+                <label><input type="radio" name="question16" value="Нет, не употребляю данный продукт" > Нет, не употребляю данный продукт</label>
+                <label><input type="radio" name="question16" value="В принципе - нет, но иногда употребляю"> В принципе - нет, но иногда употребляю </label>
+                <label><input type="radio" name="question16" value="Да, ем на постоянной основе"> Да, ем на постоянной основе</label>
+            </div>
+
+            <div class="question">
+                <h3>17.  Как часто вы едите молочные продукты?</h3>
+                <label><input type="radio" name="question17" value="Стараюсь избегать молочных продуктов" > Стараюсь избегать молочных продуктов</label>
+                <label><input type="radio" name="question17" value="Редко ем"> Редко ем</label>
+                <label><input type="radio" name="question17" value="Часто ем"> Часто ем</label>
+            </div>
+
+            <div class="question">
+                <h3>18.  Как часто вы употребляете обработанные продукты (фастфуд, полуфабрикаты)?</h3>
+                <label><input type="radio" name="question18" value="0–3 раза в месяц" > 0–3 раза в месяц</label>
+                <label><input type="radio" name="question18" value="4–8 раз в месяц"> 4–8 раз в месяц</label>
+                <label><input type="radio" name="question18" value="8+ раз в месяц"> 8+ раз в месяц</label>
+            </div>
+
+            <div class="question">
+                <h3>19.  Как часто вы покупаете новую электронику (телефон, ноутбук, планшет и т. д.)?</h3>
+                <label><input type="radio" name="question19" value="0–1 гаджет в год" > 0–1 гаджет в год</label>
+                <label><input type="radio" name="question19" value="2–3 гаджета в год"> 2–3 гаджета в год</label>
+                <label><input type="radio" name="question19" value="3+ гаджета в год"> 3+ гаджета в год</label>
+            </div>
+
+            <div class="question">
+                <h3>20.  Как много электроэнергии «уходит» в вашем доме каждый месяц?</h3>
+                <label><input type="radio" name="question20" value="Мало, стараюсь экономить и слежу за потреблением" > Мало, стараюсь экономить и слежу за потреблением</label>
+                <label><input type="radio" name="question20" value="Обычное количество (выключаю свет, когда выхожу из комнаты и т. д.)"> Обычное количество (выключаю свет, когда выхожу из комнаты и т. д.)</label>
+                <label><input type="radio" name="question20" value="Не слежу/много"> Не слежу/много</label>
+            </div>
+
+            <div class="question">
+                <h3>21.  Сколько электроприборов у вас работает в розетках одновременно большую часть времени?</h3>
+                <label><input type="radio" name="question21" value="0–1" > 0–1</label>
+                <label><input type="radio" name="question21" value="2–3"> 2-3</label>
+                <label><input type="radio" name="question21" value="3+"> 3+</label>
+            </div>
+
+            <div class="question">
+                <h3>22.  Каким способом отапливается ваше жильё?</h3>
+                <label><input type="radio" name="question22" value="Централизованное отопление" > Централизованное отопление</label>
+                <label><input type="radio" name="question22" value="Газовый котёл"> Газовый котёл</label>
+                <label><input type="radio" name="question22" value="Дровяная печь/камин"> Дровяная печь/камин</label>
+                <label><input type="radio" name="question22" value="Я не знаю"> Я не знаю</label>
+            </div>
+
+            <div class="question">
+                <h3>23.  Используете ли вы водосберегающие насадки на кранах и душах?</h3>
+                <label><input type="radio" name="question23" value="Везде" > Везде</label>
+                <label><input type="radio" name="question23" value="На некоторых кранах/душах"> На некоторых кранах/душах</label>
+                <label><input type="radio" name="question23" value="Нет"> Нет</label>
+                <label><input type="radio" name="question23" value="Я не знаю"> Я не знаю</label>
+            </div>
+
+            <div class="question">
+                <h3>24.  Какую часть вашего гардероба составляет дешёвая одежда (массовое производство, фаст-фэшн)?</h3>
+                <label><input type="radio" name="question24" value="Не имею подобный вид вещей" > Не имею подобный вид вещей</label>
+                <label><input type="radio" name="question24" value="Меньшая часть/половина"> Меньшая часть/половина</label>
+                <label><input type="radio" name="question24" value="Большая часть"> Большая часть</label>
+                <label><input type="radio" name="question24" value="Я не знаю"> Я не знаю</label>
+            </div>
+
+            <div class="question">
+                <h3>25.  Используете ли вы энергосберегающие лампочки, и какую часть они занимают в вашем доме?</h3>
+                <label><input type="radio" name="question25" value="Большинство" > Большинство</label>
+                <label><input type="radio" name="question25" value="Меньшая часть/половина"> Меньшая часть/половина</label>
+                <label><input type="radio" name="question25" value="Нет, не использую"> Нет, не использую</label>
+                <label><input type="radio" name="question25" value="Я не знаю"> Я не знаю</label>
+            </div>
+
+            <div class="question">
+                <h3>26.  Используете ли вы фильтры или локальные системы очистки воды?</h3>
+                <label><input type="radio" name="question26" value="Полная система очистки" > Полная система очистки</label>
+                <label><input type="radio" name="question26" value="Фильтр для питьевой воды"> Фильтр для питьевой воды</label>
+                <label><input type="radio" name="question26" value="Нет, не использую"> Нет, не использую</label>
+                <label><input type="radio" name="question26" value="Я не знаю"> Я не знаю</label>
+            </div>
+
+            <div class="question">
+                <h3>27.  Как часто вы участвуете в субботниках/экологическом волонтерстве (уборка территории от мусора)?</h3>
+                <label><input type="radio" name="question27" value="Регулярно" > Регулярно</label>
+                <label><input type="radio" name="question27" value="Иногда"> Иногда</label>
+                <label><input type="radio" name="question27" value="Никогда"> Никогда</label>
+            </div>
+
+            <div class="question">
+                <h3>28.  Сколько предметов одежды вы покупаете в месяц?</h3>
+                <label><input type="radio" name="question28" value="0–5 вещей" > 0–5 вещей</label>
+                <label><input type="radio" name="question28" value="6–15 вещей"> 6–15 вещей</label>
+                <label><input type="radio" name="question28" value="15+ вещей"> 15+ вещей</label>
+            </div>
+
+            <div class="question">
+                <h3>29.  Какую плиту вы используете на кухне у себя дома?</h3>
+                <label><input type="radio" name="question29" value="Газовая" > Газовая</label>
+                <label><input type="radio" name="question29" value="Электрическая">  Электрическая</label>
+                <label><input type="radio" name="question29" value="Индукционная"> Индукционная</label>
+            </div>
+
+
+
+            <!-- Здесь все остальные вопросы в том же формате -->
+
+            <button type="button" class="btn" onclick="submitAnswers()">Перейти к результатам</button>
+        </form>
+    </div>
+</body>
+</html>
+

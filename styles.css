@@ -1,0 +1,137 @@
+/* Подключаем шрифт Unbounded */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500;700&display=swap');
+
+/* Основной стиль */
+body {
+    font-family: 'Unbounded', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/736x/1a/af/e4/1aafe4dbbfdca9eb295a07bd3cf14517.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.results-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.results-container h2, .results-container p {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+/* Стиль для рекомендаций */
+.advice-container {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.recommendation {
+    display: block;  /* Каждая рекомендация занимает всю строку */
+    font-size: 18px; /* Увеличенный размер текста */
+    line-height: 1.5; /* Улучшенная читаемость */
+    margin-bottom: 10px; /* Отступ между рекомендациями */
+    white-space: pre-line; /* Позволяет переносить текст на новую строку */
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.question {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 300;
+    display: block;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #40E0D0;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2eb7a5;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .btn {
+        font-size: 1.2em;
+        padding: 12px 24px;
+    }
+    .question {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    .question {
+        font-size: 0.9em;
+    }
+    .btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
+
+/* Адаптация рекомендаций под широкий экран */
+@media (min-width: 1024px) {
+    .advice-container {
+        max-width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
